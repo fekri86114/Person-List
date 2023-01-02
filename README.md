@@ -1,5 +1,6 @@
 # 📒 Person-List (updating...)
-or People Notebook is about add, remove & save someone that you wanna have in your notebook.
+check `master` branch.
+PersonList is People Notebook, it's about add, remove & save someone that you wanna have in your notebook.
 
 # ❓ Languages & Info
 Used Kotlin, Android-xml, RecyclerView, Room, ...
