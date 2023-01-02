@@ -71,6 +71,6 @@ You can update and make changes. Do whatever you want 😈
 
 So, this is my first project in 2023!
 
-Happy new year. 
+Happy new year 🎄🎉🎊🎆
 
 I want the best for everyone in the new year! And, want freedom and humanity for IRAN. And, A year without VPNs or anything like this.
