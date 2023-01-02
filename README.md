@@ -68,7 +68,7 @@ Used Kotlin, Android-xml, RecyclerView, Room, ...
 
     }
 
-# 🎯 More
+# ✨ More
 You can update and make changes. Do whatever you want 😈
 
 So, this is my first project in 2023!
