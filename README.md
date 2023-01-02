@@ -1,4 +1,4 @@
-# 📒 Person-List
+# 📒 Person-List (updating...)
 or People Notebook is about add, remove & save someone that you wanna have in your notebook.
 
 # ❓ Languages & Info
