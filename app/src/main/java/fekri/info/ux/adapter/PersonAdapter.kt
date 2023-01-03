@@ -1,4 +1,4 @@
-package fekri.info.ux
+package fekri.info.ux.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,6 +12,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterInside
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import fekri.info.R
+import fekri.info.ux.data.Person
 
 class PersonAdapter(private val data: ArrayList<Person>, private val personEvents: PersonEvents) :
     RecyclerView.Adapter<PersonAdapter.PersonViewHolder>() {
