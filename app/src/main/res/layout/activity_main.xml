@@ -21,7 +21,7 @@
             android:paddingEnd="12dp">
 
             <ImageView
-                android:id="@+id/btn_add_new_food"
+                android:id="@+id/btn_add_new_person"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 android:layout_gravity="end|center_vertical"
@@ -29,7 +29,7 @@
                 app:tint="@color/white" />
 
             <ImageView
-                android:id="@+id/btn_remove_all_foods"
+                android:id="@+id/btn_remove_all_persons"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 android:layout_gravity="end|center_vertical"
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="start|center_vertical"
                 android:fontFamily="@font/primary_bold"
-                android:text="DuniFood app"
+                android:text="@string/app_name"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -58,7 +58,7 @@
             android:background="@drawable/shape_circle"
             android:drawableStart="@drawable/ic_search"
             android:drawablePadding="8dp"
-            android:hint="find food ..."
+            android:hint="find person ..."
             android:paddingStart="12dp"
             android:paddingTop="8dp"
             android:paddingEnd="12dp"
