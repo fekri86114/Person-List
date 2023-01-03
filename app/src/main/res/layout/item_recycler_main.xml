@@ -16,7 +16,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="100dp"
+        android:background="?attr/colorOnPrimary">
 
         <ImageView
             android:id="@+id/item_main_img_person"
@@ -41,7 +42,7 @@
             android:textStyle="bold"
             android:textSize="@dimen/txtSize_large"
             android:fontFamily="@font/primary_bold"
-            android:textColor="@color/black"/>
+            android:textColor="?attr/colorOnSecondary"/>
 
         <TextView
             android:id="@+id/item_main_txt_number_person"

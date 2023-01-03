@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">PersonList</string>
     <string name="person_image">PERSON IMAGE</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="person_name">Name</string>
+    <string name="person_phone_number">98 914 100 1010</string>
+    <string name="country">Country</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_item_message">Delete this item anyway?</string>
+    <string name="yes">Yes!</string>
 </resources>
