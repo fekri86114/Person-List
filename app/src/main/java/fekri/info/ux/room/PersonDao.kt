@@ -20,10 +20,10 @@ interface PersonDao {
     fun deletePerson(person: Person)
 
     @Query("DELETE FROM person_table")
-    fun deleteAllPersons()
+    fun deleteAllPerson()
 
     @Query("SELECT * FROM person_table")
-    fun getAllPersons()
+    fun getAllPersons() : List<Person>
 
     @Query("SELECT * FROM person_table WHERE name LIKE '%' || :searching ||'%'")
     fun searchPersons(searching: String): List<Person>

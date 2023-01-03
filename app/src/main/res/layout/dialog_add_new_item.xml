@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="@dimen/margin_normal_2"
+        android:layout_marginEnd="@dimen/margin_normal_2"
+        android:layout_marginTop="@dimen/margin_small_2"
+        android:layout_marginBottom="@dimen/margin_small_2"
+        android:hint="@string/person_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dialog_edt_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="@dimen/margin_normal_2"
+        android:layout_marginEnd="@dimen/margin_normal_2"
+        android:layout_marginTop="@dimen/margin_small_2"
+        android:layout_marginBottom="@dimen/margin_small_2"
+        android:hint="@string/person_phone_number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dialog_edt_person_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="@dimen/margin_normal_2"
+        android:layout_marginEnd="@dimen/margin_normal_2"
+        android:layout_marginTop="@dimen/margin_small_2"
+        android:layout_marginBottom="@dimen/margin_small_2"
+        android:hint="@string/country">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dialog_edt_person_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dialog_btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        app:icon="@drawable/ic_done"
+        app:iconPadding="@dimen/margin_normal"
+        app:iconTint="@color/white"/>
+
+</LinearLayout>

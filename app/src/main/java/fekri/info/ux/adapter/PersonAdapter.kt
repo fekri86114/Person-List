@@ -68,7 +68,7 @@ class PersonAdapter(private val data: ArrayList<Person>, private val personEvent
         return data.size
     }
 
-    fun addPerson(newPerson: Person, position: Int) {
+    fun addPerson(newPerson: Person) {
         // add new person to list -->
         data.add(0, newPerson)
         notifyItemInserted(0)
@@ -77,7 +77,7 @@ class PersonAdapter(private val data: ArrayList<Person>, private val personEvent
     fun deletePerson(oldPerson: Person, oldPosition: Int) {
         // remove item from list -->
         data.remove(oldPerson)
-        notifyItemChanged(oldPosition)
+        notifyItemRemoved(oldPosition)
     }
 
     fun updatedPerson(newPerson: Person, position: Int) {
