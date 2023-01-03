@@ -1,4 +1,4 @@
-# 📒 Person-List (updating...)
+# 📒 Person-List
 check `master` branch.
 
 PersonList is People Notebook, it's about add, remove & save someone that you wanna have in your notebook.
